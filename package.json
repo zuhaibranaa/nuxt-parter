@@ -1,6 +1,6 @@
 {
   "name": "nuxt-nitro-parter",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "type": "module",
   "description": "Nuxt Parter is a Middleware For Nuxtjs and nitro.js It Parses Body any type or data json, urlencoded and  multipart/formData all are supported by this middleware",
   "main": "index.ts",
