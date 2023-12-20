@@ -1,6 +1,6 @@
 {
   "name": "nitro-parter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Nuxt Parter is a Middleware For Nuxtjs and nitro.js It Parses Body any type or data json, urlencoded and  multipart/formData all are supported by this middleware",
   "main": "index.js",
@@ -16,6 +16,10 @@
     "nuxt_bodyparser",
     "bodyparser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuhaibranaa/nuxt-parter.git"
+  },
   "author": "Rana Zuhaib",
   "license": "MIT",
   "dependencies": {
