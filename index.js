@@ -23,7 +23,7 @@ export class NuxtParter {
         if(event.method === 'GET') return;
         let multipart = await readMultipartFormData(event);
         const tmp_files = [];
-        const data = {};
+        let data = {};
         if (multipart) {
             for(const [index, value] of multipart.entries()){
                 if(value.type){
