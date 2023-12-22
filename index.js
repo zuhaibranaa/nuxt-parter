@@ -20,6 +20,7 @@ export class NuxtParter {
      * The parsed data and files are stored in the instance's `data` and `files` properties respectively.
      */
     static async readRequestData(event) {
+        if(event.method === 'GET') return;
         let multipart = await readMultipartFormData(event);
         const tmp_files = [];
         const data = {};
