@@ -8,13 +8,16 @@ NuxtParter is a utility class for handling HTTP events in a Nuxt.js application.
 
 `import { NuxtParter } from 'nitro-parter';`
 
-## Create a new instance of NuxtParter with the HTTP event you want to handle.
+## Create a new instance of NuxtParter with the HTTP event you want to handle
+
 `let {data, files} = await NuxtParter.readRequestData(event);`
 
-## Access the parsed data and files from the `data` and `files` properties of the `NuxtParter` instance.
+## Access the parsed data and files from the `data` and `files` properties of the `NuxtParter` instance
+
 `event.context.files = files;`
 
 `event.context.data = data;`
 
-## Use the static `storeFile` method to store a file to a specified path.
+## Use the static `storeFile` method to store a file to a specified path
+
 `NuxtParter.storeFile(file, path);`
